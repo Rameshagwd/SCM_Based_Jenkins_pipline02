@@ -1,6 +1,5 @@
-pipeline{
-    agent any
-        stages{
+node{
+    stages{
 		stage('MVN Clen'){
             steps{
                 sh 'mvn clean'
