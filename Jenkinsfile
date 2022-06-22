@@ -1,5 +1,5 @@
 node {
-	stage ('Code clean') {
+	stage('Code clean') {
 		sh 'mvn clean' 
-		}
+	}
 
